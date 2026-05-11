@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio cá nhân của Khoa Nguyen - Web Developer / UI Designer" />
+  <title>Khoa Nguyen | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="logo" href="#home">KN<span>.</span></a>
+      <button class="menu-toggle" aria-label="Mở menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="themeToggle" class="theme-toggle" aria-label="Đổi giao diện sáng tối">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container section">
+      <div class="hero-content reveal">
+        <p class="eyebrow">Portfolio cá nhân ứng dụng AI</p>
+        <h1>Xin chào, tôi là <span>Khoa Nguyen</span></h1>
+        <h2>Web Developer / UI Designer</h2>
+        <p class="hero-desc">
+          Tôi xây dựng những giao diện website rõ ràng, hiện đại và thân thiện với người dùng,
+          kết hợp tư duy thiết kế cùng công cụ AI để biến ý tưởng thành sản phẩm số có giá trị.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">Xem dự án</a>
+          <a href="#contact" class="btn secondary">Liên hệ tôi</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <img src="assets/hero-illustration.svg" alt="Minh họa nhà thiết kế website sử dụng AI" />
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About me</p>
+          <h2>Giới thiệu bản thân</h2>
+        </div>
+        <div class="about-content reveal">
+          <p>
+            Tôi là sinh viên yêu thích thiết kế giao diện, lập trình web và cách AI hỗ trợ quá trình sáng tạo.
+            Mục tiêu nghề nghiệp của tôi là trở thành Front-end Developer có khả năng tạo ra sản phẩm đẹp,
+            dễ sử dụng và phù hợp với nhu cầu thực tế của doanh nghiệp.
+          </p>
+          <div class="info-grid">
+            <div><strong>Định hướng:</strong><span>Front-end Developer</span></div>
+            <div><strong>Thế mạnh:</strong><span>HTML, CSS, JavaScript</span></div>
+            <div><strong>Phong cách:</strong><span>Tối giản, rõ ràng, hiện đại</span></div>
+            <div><strong>Mục tiêu:</strong><span>Tạo trải nghiệm tốt cho người dùng</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects container section">
+      <div class="section-heading center reveal">
+        <p class="eyebrow">Selected work</p>
+        <h2>Dự án nổi bật</h2>
+        <p>Mỗi dự án thể hiện khả năng kết hợp giữa thiết kế, lập trình và hỗ trợ từ AI.</p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <img src="assets/project-learning.svg" alt="Minh họa dự án mobile learning app" />
+          <div class="project-body">
+            <h3>Mobile Learning App Concept</h3>
+            <p>Thiết kế ý tưởng ứng dụng học tập di động giúp người học theo dõi tiến độ, làm quiz và nhận phản hồi.</p>
+            <p><strong>Vai trò:</strong> Phân tích yêu cầu, đề xuất UI, viết nội dung giao diện.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <img src="assets/project-portfolio.svg" alt="Minh họa website portfolio cá nhân" />
+          <div class="project-body">
+            <h3>Personal Portfolio Website</h3>
+            <p>Website giới thiệu bản thân, kỹ năng và dự án cá nhân, tối ưu cho nhà tuyển dụng và thiết bị di động.</p>
+            <p><strong>Vai trò:</strong> Thiết kế bố cục, lập trình HTML/CSS/JS, triển khai website.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <img src="assets/project-ai.svg" alt="Minh họa công cụ AI hỗ trợ thiết kế" />
+          <div class="project-body">
+            <h3>AI Design Assistant Workflow</h3>
+            <p>Xây dựng quy trình dùng AI để tạo ý tưởng màu sắc, nội dung portfolio và hình ảnh minh họa.</p>
+            <p><strong>Vai trò:</strong> Viết prompt, chọn kết quả phù hợp, chỉnh sửa để tạo bản sắc cá nhân.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">Skills & Experience</p>
+          <h2>Kỹ năng chính</h2>
+          <p>Các kỹ năng được trình bày trực quan để nhà tuyển dụng dễ nắm bắt.</p>
+        </div>
+        <div class="skills-layout">
+          <div class="skill-bars reveal">
+            <div class="skill"><span>HTML/CSS</span><div class="bar"><i style="width: 90%"></i></div></div>
+            <div class="skill"><span>JavaScript</span><div class="bar"><i style="width: 72%"></i></div></div>
+            <div class="skill"><span>UI/UX Thinking</span><div class="bar"><i style="width: 78%"></i></div></div>
+            <div class="skill"><span>AI Prompting</span><div class="bar"><i style="width: 85%"></i></div></div>
+          </div>
+          <div class="experience-cards reveal">
+            <div class="mini-card"><strong>01</strong><span>Phân tích yêu cầu</span></div>
+            <div class="mini-card"><strong>02</strong><span>Thiết kế wireframe</span></div>
+            <div class="mini-card"><strong>03</strong><span>Lập trình responsive</span></div>
+            <div class="mini-card"><strong>04</strong><span>Kiểm thử & chỉnh sửa</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact container section reveal">
+      <div class="contact-card">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Hãy kết nối với tôi</h2>
+          <p>
+            Tôi luôn sẵn sàng trao đổi về cơ hội thực tập, dự án website hoặc các ý tưởng sản phẩm số.
+          </p>
+        </div>
+        <div class="contact-info">
+          <a href="mailto:khoasun24@gmail.com">khoasun24@gmail.com</a>
+          <a href="https://github.com/khoasun24" target="_blank" rel="noopener">github.com/khoasun24</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn Profile</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Khoa Nguyen. Designed with AI-assisted workflow.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
