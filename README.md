@@ -1,7 +1,7 @@
 # Personal Portfolio Website - Trần Lylyane
 
 ## 1. Giới thiệu dự án
-Đây là website portfolio cá nhân được xây dựng bằng **HTML, CSS và JavaScript**, phục vụ mục đích giới thiệu bản thân, kỹ năng, dự án và thông tin liên hệ với nhà tuyển dụng.
+Đây là website portfolio cá nhân được xây dựng bằng **HTML, CSS**, phục vụ mục đích giới thiệu bản thân, kỹ năng, dự án và thông tin liên hệ với nhà tuyển dụng.
 
 Website có các phần chính:
 - Hero: họ tên, vai trò nghề nghiệp, câu mô tả cá nhân.
@@ -13,7 +13,6 @@ Website có các phần chính:
 ## 2. Công nghệ sử dụng
 - HTML5
 - CSS3
-- JavaScript
 - GitHub Codespaces
 - GitHub Pages hoặc Vercel để triển khai
 
@@ -24,7 +23,7 @@ Trong quá trình thực hiện, em sử dụng tối thiểu 02 công cụ AI:
 Mục đích sử dụng:
 - Gợi ý bố cục website portfolio.
 - Viết nội dung giới thiệu cá nhân, dự án và kỹ năng.
-- Hỗ trợ tạo mã HTML/CSS/JavaScript.
+- Hỗ trợ tạo mã HTML/CSS.
 - Gợi ý README và quy trình triển khai.
 
 Ví dụ prompt:
@@ -96,6 +95,3 @@ Cách 2: Chạy bằng VS Code Live Server hoặc GitHub Codespaces.
 - Thay link LinkedIn thật nếu có.
 - Nén file theo quy tắc: `<Mã sinh viên>_<Họ và tên>.zip`.
 
-## 10. Link nộp bài
-- GitHub repository: `Dán link repository tại đây`
-- Website triển khai: `Dán link GitHub Pages hoặc Vercel tại đây`
