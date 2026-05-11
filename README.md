@@ -1,4 +1,4 @@
-# Personal Portfolio Website - Khoa Nguyen
+# Personal Portfolio Website - Trần Lylyane
 
 ## 1. Giới thiệu dự án
 Đây là website portfolio cá nhân được xây dựng bằng **HTML, CSS và JavaScript**, phục vụ mục đích giới thiệu bản thân, kỹ năng, dự án và thông tin liên hệ với nhà tuyển dụng.
