@@ -73,9 +73,8 @@ Sau khi nhận kết quả từ AI, em không sử dụng trực tiếp mà đã
 1. Chọn lại bố cục phù hợp với yêu cầu bài thi, gồm đủ Hero, About, Projects, Skills và Contact.
 2. Điều chỉnh nội dung để thể hiện rõ định hướng cá nhân là Web Developer / UI Designer.
 3. Chỉnh màu sắc sang phong cách riêng: xanh teal, xanh navy và vàng nhấn.
-4. Viết lại CSS để website có giao diện responsive trên desktop, tablet và điện thoại.
-5. Thêm JavaScript cho các yếu tố tương tác: dark mode, menu mobile và hiệu ứng xuất hiện khi cuộn trang.
-6. Tối ưu README để trình bày rõ công cụ AI, prompt, quy trình chỉnh sửa và ý tưởng thiết kế.
+4. Thêm các yếu tố tương tác: dark mode, menu mobile và hiệu ứng xuất hiện khi cuộn trang.
+5. Tối ưu README để trình bày rõ công cụ AI, prompt, quy trình chỉnh sửa và ý tưởng thiết kế.
 
 ## 4. Ý tưởng thiết kế tổng thể
 Ý tưởng chính của website là xây dựng một portfolio cá nhân chuyên nghiệp, dễ đọc và thân thiện với nhà tuyển dụng. Màu xanh teal thể hiện sự sáng tạo và công nghệ, màu navy tạo cảm giác chuyên nghiệp, còn màu vàng dùng để nhấn mạnh các chi tiết quan trọng.
@@ -84,7 +83,7 @@ Phong cách thiết kế hướng đến sự tối giản, hiện đại, có k
 
 ## 5. Tính năng nổi bật
 - Giao diện responsive cho nhiều kích thước màn hình.
-- Chế độ sáng/tối bằng JavaScript.
+- Chế độ sáng/tối.
 - Hiệu ứng hover cho nút và project card.
 - Hiệu ứng reveal khi cuộn trang.
 - Bố cục rõ ràng, dễ tiếp cận thông tin.
