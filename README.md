@@ -28,15 +28,43 @@ Mục đích sử dụng:
 
 Ví dụ prompt:
 ```text
-Hãy tạo bố cục website portfolio cá nhân cho sinh viên định hướng Front-end Developer,
-bao gồm Hero, About, Projects, Skills và Contact. Phong cách hiện đại, tối giản,
-thân thiện với nhà tuyển dụng và responsive.
+Bạn là một chuyên gia UI/UX kiêm lập trình viên Front-end cao cấp. Hãy giúp tôi lên kế hoạch và viết mã nguồn cho một website portfolio cá nhân lưu trữ trên GitHub, dành cho một sinh viên ngành Thiết kế đồ họa và Marketing.
+
+Cấu trúc nội dung bắt buộc:
+
+Hero Section: Hiển thị họ tên, vai trò (Graphic Designer & Marketer), và một câu slogan đậm chất cá nhân (ví dụ: "Blending aesthetics with strategy").
+
+About Me: Giới thiệu bản thân, định hướng sự nghiệp sáng tạo và các kỹ năng cốt lõi.
+
+Projects Gallery: Trình bày các dự án (ví dụ: branding cho tiệm bánh, UI/UX app học tập). Mỗi dự án gồm: Tên, mô tả ngắn, vai trò (Leader/Designer), và vị trí đặt hình ảnh minh họa.
+
+Visual Skills: Trình bày kỹ năng (Figma, Photoshop, Branding) dưới dạng các thẻ thông tin (cards) hoặc sơ đồ trực quan, không dùng bảng biểu.
+
+Contact: Thông tin liên hệ kèm nút kêu gọi hành động (Call to Action) như "Let's collaborate!".
+
+Yêu cầu thiết kế & Kỹ thuật:
+
+Phong cách: Hiện đại, tối giản nhưng có điểm nhấn. Sử dụng hệ màu sắc có sự tương phản tốt (ví dụ: Dark mode với các mảng màu pastel hoặc phong cách Neo-brutalism).
+
+Typography: Sử dụng phông chữ không chân (Sans-serif) để tạo cảm giác chuyên nghiệp, dễ đọc.
+
+Tính tương tác: Code phải có hiệu ứng hover cho các thẻ dự án và hiệu ứng chuyển động mượt mà (smooth scroll) hoặc hiệu ứng xuất hiện (fade-in) khi cuộn trang.
+
+Responsive: Giao diện phải hiển thị hoàn hảo trên cả máy tính và điện thoại.
+
+Định dạng đầu ra: Cung cấp mã HTML và CSS (hoặc Tailwind CSS) để tôi có thể triển khai ngay trên GitHub Pages.
+
+Header Section:
+
+Thiết kế một thanh điều hướng (Navigation Bar) cố định ở phía trên cùng (sticky) khi cuộn trang.
+
+Bên trái là Logo (có thể là tên viết tắt cách điệu).
+
+Bên phải là menu điều hướng gồm các mục: Giới thiệu, Dự án, Kỹ năng, Liên hệ.
+
+Thêm một nút chuyển đổi Giao diện Sáng/Tối (Dark/Light Mode) ngay trên Header để tạo yếu tố tương tác.
 ```
 
-```text
-Hãy viết nội dung giới thiệu bản thân ngắn gọn cho website portfolio cá nhân,
-thể hiện định hướng nghề nghiệp Front-end Developer và khả năng ứng dụng AI trong thiết kế web.
-```
 
 
 ## 3. Quá trình chỉnh sửa kết quả AI
